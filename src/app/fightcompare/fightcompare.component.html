@@ -1,0 +1,173 @@
+
+<div class="row" style="margin: 5px; padding: 5px; width: 80%; height: inherit;">
+      <h2 style="color:white;">Select Weight Class:</h2>
+      <select [(ngModel)]="className" (change)="loadclasses(className)">
+        <option *ngFor="let class of classes" [value]="class.id">{{class.name}}</option>
+      </select>
+</div>
+<div class="row" style="margin: 1px;" align="center">
+  <h4 style="color:white;" class="text-sm-center">Weightclass: {{class.name}}</h4>
+  <h4 style="color:white;" class="text-sm-center">Weight Limit: {{class.weight}}</h4>
+  <div class="col-md-1"></div>
+  <div class="col-md-5" style="color:black; background-color: gray; padding: 5px; margin:4px; border-radius: 10px;">
+
+    <h4>Select Fighter:</h4>
+
+    <select [(ngModel)]="fighterID1" (change)="loadfighter1(fighterID1)" style="margin: 3px 0px 3px 0px;">
+        <option *ngFor="let fighter of class.fighters" [value]="fighter.Id"><p *ngIf="fighter.Id != fighterID2">{{fighter.name}}</p></option>
+    </select>  
+
+    <div *ngFor="let fighter of class.fighters">
+      <div *ngIf="fighter.Id == fighterID1 && fnameset1 == true">
+        <div class="row">
+          <h5> Name: <strong>{{fighter.name}} </strong></h5>
+        </div>
+        <div class="row">
+          <img src="./images/{{fighter.picture}}" alt="{{fighter.name}}" class="img-circle" style="background-color:#641312; margin: 0px 4px 0px 4px"/>
+        </div>
+        <div class="row">
+          <h5> Nickname: <strong>{{fighter.nickname}}</strong> </h5>
+        </div>
+        <div class="row">
+          <h5> Height: <strong>{{fighter.height}}</strong> </h5>
+        </div>
+        <div class="row">
+          <h5> Reach: <strong>{{fighter.reach}}</strong> </h5>
+        </div>
+        <div *ngFor="let record of fighter.record" style="padding:2px; margin:4px; background-color:darkslategrey; border: 2px solid black; border-radius: 10px;">
+           <div class="row">
+            <p> Opponent ID: {{record.opponent}} </p>
+          </div> 
+          <div *ngFor="let fighter2 of class.fighters">
+            <div *ngIf="fighter2.Id == record.opponent">
+              <p> Opponent: {{fighter2.name}} </p>
+            </div>    
+          </div>
+          <div class="row">
+            <p> Event: {{record.event}} </p>
+          </div>
+          <div class="row">
+            <p> Result: {{record.result}} </p>
+          </div>
+          <div class="row">
+            <p> Win or Loss: {{record.win_loss}} </p>
+          </div>
+          <div class="row">
+            <p> Round: {{record.round}} </p>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+  </div>
+
+  <div class="col-md-5" style="color:black; background-color: gray; padding: 5px; margin:4px; border-radius: 10px;">
+
+    <h4>Select Fighter:</h4>
+    
+    <select [(ngModel)]="fighterID2" (change)="loadfighter2(fighterID2)" style="margin: 3px 0px 3px 0px;">
+        <option *ngFor="let fighter of class.fighters" [value]="fighter.Id"><p *ngIf="fighter.Id != fighterID1">{{fighter.name}}</p></option>
+    </select>  
+
+    <div *ngFor="let fighter of class.fighters">
+      <div *ngIf="fighter.Id == fighterID2 && fnameset2 == true">
+        <div class="row">
+          <h5> Name: <strong>{{fighter.name}} </strong></h5>
+        </div>
+        <div class="row">
+          <img src="./images/{{fighter.picture}}" alt="{{fighter.name}}" class="img-circle" style="background-color:#780001; margin: 0px 4px 0px 4px"/>
+        </div>
+        <div class="row">
+          <h5> Nickname: <strong>{{fighter.nickname}}</strong> </h5>
+        </div>
+        <div class="row">
+          <h5> Height: <strong>{{fighter.height}}</strong> </h5>
+        </div>
+        <div class="row">
+          <h5> Reach: <strong>{{fighter.reach}}</strong> </h5>
+        </div>
+        <div *ngFor="let record of fighter.record" style="padding:2px; margin:4px; background-color:darkslategrey; border: 2px solid black; border-radius: 10px;">
+          <div class="row">
+            <p> Opponent ID: {{record.opponent}} </p>
+          </div> 
+          <div *ngFor="let fighter2 of class.fighters">
+            <div *ngIf="fighter2.Id == record.opponent">
+              <p> Opponent: {{fighter2.name}} </p>
+            </div>    
+          </div>
+          <div class="row">
+            <p>{{record.event}}</p>
+          </div>
+          <div class="row">
+            <p> Result: {{record.result}} </p>
+          </div>
+          <div class="row">
+            <p> Win or Loss: {{record.win_loss}} </p>
+          </div>
+          <div class="row">
+            <p> Round: {{record.round}} </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<div class="row" style="margin:5px;">
+    <button class="btn btn-danger" (click)="launchCompare()" type="submit">Button</button>
+  </div>
+<div *ngIf="showResult == true">
+  <div *ngIf="fighterID1 != 0 && fighterID2 != 0">
+    <div class="row" *ngIf="decMethod != ''" style="color:black; background-color: gray; padding: 5px; margin:4px; border-radius: 10px;">
+      <div class="col-md-1">
+      </div>
+
+      <div *ngIf="fighter1Dec == 'Win'">
+        <div class="col-md-3" id="fighter_winner">
+          Fighter 1 Result:
+          <h5>{{fighter1Dec}}</h5>
+        </div>
+      </div>
+      <div *ngIf="fighter1Dec == 'Loss'">
+        <div class="col-md-3" id="fighter_losser">
+          Fighter 1 Result:
+          <h5>{{fighter1Dec}}</h5>
+        </div>
+      </div>
+      <div *ngIf="fighter1Dec == 'Draw'">
+        <div class="col-md-3" id="fighter_draw">
+          Fighter 1 Result:
+          <h5>{{fighter1Dec}}</h5>
+        </div>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-2" id="fighter_dec">
+        Method:
+        <h4>{{decMethod}}</h4>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div *ngIf="fighter2Dec == 'Win'">
+        <div class="col-md-3" id="fighter_winner">
+          Fighter 2 Result:
+          <h5>{{fighter2Dec}}</h5>
+        </div>
+      </div>
+      <div *ngIf="fighter2Dec == 'Loss'">
+        <div class="col-md-3" id="fighter_losser">
+          Fighter 2 Result:
+          <h5>{{fighter2Dec}}</h5>
+        </div>
+      </div>
+      <div *ngIf="fighter2Dec == 'Draw'">
+        <div class="col-md-3" id="fighter_draw">
+          Fighter 2 Result:
+          <h5>{{fighter2Dec}}</h5>
+        </div>
+      </div>
+
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+</div>

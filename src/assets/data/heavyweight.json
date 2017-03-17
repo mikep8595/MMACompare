@@ -1,0 +1,360 @@
+{
+    "Id": 2,
+    "name": "Heavyweight",
+    "weight": 260,
+    "champion":1002,
+    "fighters": [
+        {
+            "Id": 1001,
+            "name": "Cain Velasquez",
+            "nickname":"N/A",
+            "height":"6'1",
+            "reach":74,
+            "picture": "cain.png",
+            "record": [
+                {
+                    "Id": 100101,
+                    "opponent": 1006,
+                    "event": "UFC 200",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":1               
+                },
+                {
+                    "Id": 100102,
+                    "opponent": 1004,
+                    "event": "UFC 188",
+                    "result": "Submission",
+                    "win_loss":"Loss",
+                    "round":3               
+                },
+                {
+                    "Id": 100103,
+                    "opponent": 1007,
+                    "event": "UFC 166",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":5            
+                },
+                {
+                    "Id": 100104,
+                    "opponent": 1009,
+                    "event": "UFC 160",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":1           
+                },
+                {
+                    "Id": 100105,
+                    "opponent": 1007,
+                    "event": "UFC 155",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5            
+                }
+                
+            ]
+        },
+        {
+            "Id": 1002,
+            "name": "Stipe Miocic",
+            "nickname":"N/A",
+            "height":"5'9",
+            "reach":75,
+            "picture": "stipe.png",
+            "record": [
+                {
+                    "Id": 100201,
+                    "opponent": 1003,
+                    "event": "UFC 203",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":1               
+                },
+                {
+                    "Id": 100202,
+                    "opponent": 1004, 
+                    "event": "UFC 198",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":1              
+                },
+                {
+                    "Id": 100203,
+                    "opponent": 1005,
+                    "event": "UFC 195",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":1           
+                },
+                {
+                    "Id": 100204,
+                    "opponent": 1008,
+                    "event": "UFC Fight Night 65",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":5          
+                },
+                {
+                    "Id": 100205,
+                    "opponent": 1005,
+                    "event": "UFC on Fox 13",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Loss",
+                    "round":5          
+                }
+                
+            ]
+        },
+        {
+            "Id": 1003,
+            "name": "Alistair Overeem",
+            "nickname":"The Reem",
+            "height":"6'5",
+            "reach":74,
+            "picture": "reem.png",
+            "record": [
+                {
+                    "Id": 100301,
+                    "opponent": 1008,
+                    "event": "UFC 209",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":3               
+                },
+                {
+                    "Id": 100302,
+                    "opponent": 1002,
+                    "event": "UFC 203",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":1              
+                },
+                {
+                    "Id": 100303,
+                    "opponent": 1005,
+                    "event": "UFC Fight Night 87",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":2            
+                },
+                {
+                    "Id": 100304,
+                    "opponent": 1007,
+                    "event": "UFC on Fox 17",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":2            
+                },
+                {
+                    "Id": 100305,
+                    "opponent": 1010,
+                    "event": "UFC Fight Night 87",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5            
+                }
+            ]
+        },
+        {
+            "Id": 1004,
+            "name": "Fabricio Werdum",
+            "nickname":"Vai Cavalo",
+            "height":"6'4",
+            "reach":74,
+            "picture": "werdum.png",
+            "record": [
+                {
+                    "Id": 100401,
+                    "opponent": 1006,
+                    "event": "UFC 203",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5            
+                },
+                {
+                    "Id": 100402,
+                    "opponent": 1002,
+                    "event": "UFC 198",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":1              
+                },
+                {
+                    "Id": 100403,
+                    "opponent": 1001,
+                    "event": "UFC 188",
+                    "result": "Submission",
+                    "win_loss":"Win",
+                    "round":3            
+                },
+                {
+                    "Id": 100404,
+                    "opponent": 1008,
+                    "event": "UFC 180",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":2            
+                },
+                {
+                    "Id": 100405,
+                    "opponent": 1006,
+                    "event": "UFC on Fox 11",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5           
+                }
+            ]
+        },
+        {
+            "Id": 1005,
+            "name": "Andrei Arlovski",
+            "nickname":"The Pit Bull",
+            "height":"6'4",
+            "reach":74,
+            "picture": "arlovski.png",
+            "record": [
+                {
+                    "Id": 100501,
+                    "opponent": 1011,
+                    "event": "UFC on Fox 23",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":1               
+                },
+                {
+                    "Id": 100502,
+                    "opponent": 1012,
+                    "event": "UFC Fight Night 93",
+                    "result": "Submission",
+                    "win_loss":"Loss",
+                    "round":3              
+                },
+                {
+                    "Id": 100503,
+                    "opponent": 1003,
+                    "event": "UFC Fight Night 87",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":2            
+                },
+                {
+                    "Id": 100504,
+                    "opponent": 1002,
+                    "event": "UFC 195",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":1            
+                },
+                {
+                    "Id": 100505,
+                    "opponent": 1013,
+                    "event": "UFC 191",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5            
+                }
+            ]
+        },
+        {
+            "Id": 1006,
+            "name": "Travis Browne",
+            "nickname":"Hapa",
+            "height":"6'7",
+            "reach":74,
+            "picture": "travisB.png",
+            "record": [
+                {
+                    "Id": 100601,
+                    "opponent": 1014,
+                    "event": "UFC Fight Night 105",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":2               
+                },
+                {
+                    "Id": 100602,
+                    "opponent": 1004,
+                    "event": "UFC 203",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Loss",
+                    "round":5              
+                },
+                {
+                    "Id": 100603,
+                    "opponent": 1003,
+                    "event": "UFC 200",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":1            
+                },
+                {
+                    "Id": 100604,
+                    "opponent": 1015,
+                    "event": "UFC Fight Night 81",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":3           
+                },
+                {
+                    "Id": 100605,
+                    "opponent": 1005,
+                    "event": "UFC 187",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":1           
+                }
+            ]
+        },
+        {
+            "Id": 1007,
+            "name": "Junior dos Santos",
+            "nickname":"Cigano",
+            "height":"6'4",
+            "reach":74,
+            "picture": "junior.png",
+            "record": [
+                {
+                    "Id": 100701,
+                    "opponent": 1016,
+                    "event": "UFC Fight Night 86",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5               
+                },
+                {
+                    "Id": 100702,
+                    "opponent": 1003,
+                    "event": "UFC on Fox 17",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":2            
+                },
+                {
+                    "Id": 100703,
+                    "opponent": 1002,
+                    "event": "UFC on Fox 13",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5            
+                },
+                {
+                    "Id": 100704,
+                    "opponent": 1001,
+                    "event": "UFC 166",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":5          
+                },
+                {
+                    "Id": 100705,
+                    "opponent": 1008,
+                    "event": "UFC 160",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":3          
+                }
+            ]
+        }
+    ]
+}

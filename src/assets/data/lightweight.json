@@ -1,0 +1,263 @@
+{
+    "Id": 3,
+    "name": "Lightweight",
+    "weight": 155,
+    "champion":1001,
+    "fighters": [
+        {
+            "Id": 1001,
+            "name": "Conor McGregor",
+            "nickname":"Notorious",
+            "height":"5'8",
+            "reach":74,
+            "picture": "mcgregor.png",
+            "record": [
+                {
+                    "Id": 100101,
+                    "opponent": 1002,
+                    "event": "UFC 205",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":2              
+                },
+                {
+                    "Id": 100102,
+                    "opponent": 1003,
+                    "event": "UFC 202",
+                    "result": "Majority Decision",
+                    "win_loss":"Win",
+                    "round":5             
+                },
+                {
+                    "Id": 100103,
+                    "opponent": 1003,
+                    "event": "UFC 196",
+                    "result": "Submission",
+                    "win_loss":"Loss",
+                    "round":2           
+                },
+                {
+                    "Id": 100104,
+                    "opponent": 1004,
+                    "event": "UFC 194",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":1           
+                },
+                {
+                    "Id": 100105,
+                    "opponent": 1005,
+                    "event": "UFC 189",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":2            
+                }
+                
+            ]
+        },
+        {
+            "Id": 1002,
+            "name": "Eddie Alvarez",
+            "nickname":"N/A",
+            "height":"5'10",
+            "reach":74,
+            "picture": "alvarez.png",
+            "record": [
+                {
+                    "Id": 100201,
+                    "opponent": 1001,
+                    "event": "UFC 205",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":2              
+                },
+                {
+                    "Id": 100202,
+                    "opponent": 1006,
+                    "event": "UFC Fight Night 90",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":1             
+                },
+                {
+                    "Id": 100203,
+                    "opponent": 1007,
+                    "event": "UFC Fight Night 81",
+                    "result": "Split Decision",
+                    "win_loss":"Win",
+                    "round":5          
+                },
+                {
+                    "Id": 100204,
+                    "opponent": 1008,
+                    "event": "UFC 188",
+                    "result": "Split Decision",
+                    "win_loss":"Win",
+                    "round":5          
+                },
+                {
+                    "Id": 100205,
+                    "opponent": 1009,
+                    "event": "UFC 178",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Loss",
+                    "round":5            
+                }
+                
+            ]
+        },
+        {
+            "Id": 1003,
+            "name": "Nate Diaz",
+            "nickname":"N/A",
+            "height":"6'0",
+            "reach":74,
+            "picture": "natediaz.png",
+            "record": [
+                {
+                    "Id": 100301,
+                    "opponent": 1001,
+                    "event": "UFC 202",
+                    "result": "Majority Decision",
+                    "win_loss":"Loss",
+                    "round":5              
+                },
+                {
+                    "Id": 100302,
+                    "opponent": 1001,
+                    "event": "UFC 196",
+                    "result": "Submission",
+                    "win_loss":"Win",
+                    "round":2              
+                },
+                {
+                    "Id": 100303,
+                    "opponent": 1010,
+                    "event": "UFC on Fox 17",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5          
+                },
+                {
+                    "Id": 100304,
+                    "opponent": 1006,
+                    "event": "UFC on Fox 13",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Loss",
+                    "round":5          
+                },
+                {
+                    "Id": 100305,
+                    "opponent": 1011,
+                    "event": "UFC - The Ultimate Fighter 18 Finale",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":1            
+                }
+                
+            ]
+        },
+        {
+            "Id": 1006,
+            "name": "Rafael dos Anjos",
+            "nickname":"N/A",
+            "height":"5'9",
+            "reach":74,
+            "picture": "rda.png",
+            "record": [
+                {
+                    "Id": 100601,
+                    "opponent": 1012,
+                    "event": "UFC Fight Night 98",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Loss",
+                    "round":5             
+                },
+                {
+                    "Id": 100602,
+                    "opponent": 1002,
+                    "event": "UFC Fight Night 90",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":1             
+                },
+                {
+                    "Id": 100603,
+                    "opponent": 1009,
+                    "event": "UFC on Fox 17",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":1          
+                },
+                {
+                    "Id": 100604,
+                    "opponent": 1007,
+                    "event": "UFC 185",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5         
+                },
+                {
+                    "Id": 100605,
+                    "opponent": 1003,
+                    "event": "UFC on Fox 13",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5            
+                }
+                
+            ]
+        },
+        {
+            "Id": 1007,
+            "name": "Anthony Pettis",
+            "nickname":"Showtime",
+            "height":"5'9",
+            "reach":74,
+            "picture": "anthonypettis.png",
+            "record": [
+                {
+                    "Id": 100701,
+                    "opponent": 1012,
+                    "event": "UFC 206",
+                    "result": "KO/TKO",
+                    "win_loss":"Loss",
+                    "round":3               
+                },
+                {
+                    "Id": 100702,
+                    "opponent": 1002,
+                    "event": "UFC on Fox 21",
+                    "result": "Submission",
+                    "win_loss":"Win",
+                    "round":3            
+                },
+                {
+                    "Id": 100703,
+                    "opponent": 1015,
+                    "event": "UFC 197",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Loss",
+                    "round":5          
+                },
+                {
+                    "Id": 100704,
+                    "opponent": 1002,
+                    "event": "UFC Fight Night 81",
+                    "result": "Split Decision",
+                    "win_loss":"Loss",
+                    "round":5         
+                },
+                {
+                    "Id": 100705,
+                    "opponent": 1006,
+                    "event": "UFC 185",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Loss",
+                    "round":5            
+                }
+                
+            ]
+        }
+    ]
+}

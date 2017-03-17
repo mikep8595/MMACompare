@@ -1,0 +1,26 @@
+#fighter_winner{
+    background-color: #5cb85c;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#fighter_losser{
+    background-color: #d9534f;
+    color:black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#fighter_dec{
+    background-color: #5bc0de;
+    color:black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px 4px 0px 4px;
+}
+
+#fighter_draw{
+    background-color: #f0ad4e;
+    color:black;
+    border: 2px solid black;
+    border-radius: 10px;
+}

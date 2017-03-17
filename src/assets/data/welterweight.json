@@ -1,0 +1,76 @@
+{
+    "Id": 1,
+    "name": "Welterweight",
+    "weight": 170,
+    "champion":1001,
+    "fighters": [
+        {
+            "Id": 1001,
+            "name": "Tyron Woodley",
+            "nickname":"The Chosen One",
+            "height":"5'9",
+            "reach":74,
+            "picture": "woodley.png",
+            "record": [
+                {
+                    "Id": 100101,
+                    "opponent": 1002,
+                    "event": "UFC 209",
+                    "result": "Majority Decision",
+                    "win_loss":"Win",
+                    "round":5                
+                },
+                {
+                    "Id": 100102,
+                    "opponent": 1002,
+                    "event": "UFC 205",
+                    "result": "Majority Draw",
+                    "win_loss":"Win",
+                    "round":5               
+                },
+                {
+                    "Id": 100103,
+                    "opponent": 1003,
+                    "event": "UFC 201",
+                    "result": "KO/TKO",
+                    "win_loss":"Win",
+                    "round":5            
+                }
+            ]
+        },
+        {
+            "Id": 1002,
+            "name": "Stephen Thompson",
+            "nickname":"Wonderboy",
+            "height":"6'0",
+            "reach":74,
+            "picture": "wonderboy.png",
+            "record": [
+                {
+                    "Id": 100201,
+                    "opponent": 1001,
+                    "event": "UFC 209",
+                    "result": "Majority Decision",
+                    "win_loss":"Loss",
+                    "round":5                
+                },
+                {
+                    "Id": 100202,
+                    "opponent": 1001,
+                    "event": "UFC 205",
+                    "result": "Majority Draw",
+                    "win_loss":"Loss",
+                    "round":5               
+                },
+                {
+                    "Id": 100203,
+                    "opponent": 1004,
+                    "event": "UFC Fight Night McDonald Vs Thompson",
+                    "result": "Unanimous Decision",
+                    "win_loss":"Win",
+                    "round":5            
+                }
+            ]
+        }
+    ]
+}
